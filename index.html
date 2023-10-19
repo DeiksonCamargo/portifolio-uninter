@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deikson Camargo - Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 10px;
+        }
+        .container {
+            margin: 20px;
+        }
+        h2 {
+            margin-top: 0;
+        }
+        section{
+            text-align: center;
+        }
+        #contact-form {
+            width: 50%;
+            margin: 0 auto;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            display: inline-block; /* Exibe os itens lado a lado */
+            margin-right: 10px; /* Espaçamento entre os itens */
+        }
+        .profile-image {
+            border-radius: 50%; /* Cria uma forma oval */
+            max-width: 300px; /* Define a largura máxima da imagem */
+            max-height: 300px; /* Define a altura máxima da imagem */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Cabeçalho com imagem e nome -->
+        <img src="images/githubpicture.jpg" alt="Sua Imagem" class="profile-image">
+        <h1>Deikson Camargo</h1>
+    </header>
+    <nav>
+        <!-- Menu de navegação -->
+        <a href="#about">Sobre Mim</a>
+        <a href="#education">Formação Educacional</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <!-- Seção Sobre Mim -->
+            <h2>Sobre Mim</h2>
+            <p>Estudante, entusiasta de dados e trabalho como Mecânico de Autos.
+                Atualmente, trabalho na manutenção de veículos automotores de linha leve, <br>realizando diagnósticos, 
+                programação de módulos de transmissão, reparos e orçamentos, além disso, <br>trabalho com projetos pessoais 
+                colocando em prática o que venho aprendendo, para adquirir experiência na solução de problemas de negócio<br> 
+                e domínio sobre as ferramentas de análise de dados. <br>Como hobbies, gosto de ler livros, assistir um bom filme,
+                passear com meu cachorro e reunir eventualmente com amigos.</p>
+        </section>
+        <section id="education">
+            <!-- Seção Formação Educacional -->
+            <h2>Formação Educacional</h2>
+            <p>
+                Cursando Análise e Desenvolvimento de Sistemas <br>
+                Português brasileiro - Nativo <br>
+                Inglês - Intermediário em leitura e básico em fala e escrita
+            </p>
+        </section>
+        <section id="portfolio">
+            <!-- Seção Portfólio -->
+            <h2>Portfólio</h2>
+            <ul>
+                <li><a href="https://github.com/DeiksonCamargo/curry_company" target="_blank">Curry Company</a></li>
+                <li><a href="https://github.com/DeiksonCamargo/rossmann_sales" target="_blank">Rossman Sales</a></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <!-- Seção Contato -->
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Nome">
+                <input type="email" name="email" placeholder="E-mail">
+                <textarea name="message" placeholder="Mensagem"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+    <footer>
+        <section>
+        <!-- Links de contato -->
+        <a href="mailto:deiksoncamargo@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/deikson-camargo/" target="_blank">LinkedIn</a>
+        </section>
+    </footer>
+</body>
+</html>
